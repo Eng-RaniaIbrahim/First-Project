@@ -1,0 +1,422 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    direction: rtl;
+}
+.home{
+    width:100%;
+ /*   height: 100vh;
+ position: fixed;*/
+ top:0px;
+ 
+}
+
+.home .nav {
+  
+  /*  background-color: rgb(196, 193, 189);*/
+  /*background-color:rgba(219, 215, 215, 0.5);*/
+    overflow:auto;
+    border-radius: 20px;
+  
+  
+}
+.child .hrr{
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.home .nav ul  {
+   
+    list-style-type: none; 
+
+}
+.home .nav ul li{
+  
+ float:left;
+ margin:10px;
+}
+.home .nav ul li a{
+    text-decoration: none;
+    color:black;
+    padding:10px;
+}
+.home .nav ul li a:hover{
+    text-decoration: none;
+    color:blue;
+    padding:10px; 
+}
+.home .nav a {
+    float:right;
+    padding:10px;
+    margin:10px;
+    text-decoration: none;
+    color:black;
+    font-size:x-large;
+
+}
+.home .nav ul li button{
+    padding:10px;
+    margin:10px; 
+    color:black;
+}
+.home .nav ul li button:hover{
+    padding:10px;
+    margin:10px; 
+    color:blue;
+}
+.home .nav a  .span1{
+    color:orange;
+    font-size:x-large;
+
+}
+.home .nav a  .span2{
+    color:blue;
+    font-size:x-large;
+
+}
+/*=========================================================*/
+/*=====end nav=====*/
+.perent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-direction: row;
+    
+    
+    }
+    .perent .child{
+     
+      width: 40%;
+    }
+    .perent .child  img{
+        width: 100%;
+    }
+    .perent .child  .img1{
+    animation-name:animat ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+    @keyframes animat {
+      25%{
+        transform: translate(30px);
+      }
+     50%{
+        transform: translate(0px);
+      }
+      75%{
+        transform: translate(30px);
+      }
+      100%{
+        transform: translate(0px);
+      }
+    }
+    .perent .child  h1{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .perent .child i{
+      color:blue;
+    }
+    .perent .child  h1:hover{
+    color:blue;
+    }
+    .perent .child .but2{
+        color:white;
+        background-color: blue;
+        border: 1px solid white;
+        margin: 20px;
+        padding: 10px;
+    }
+    /*==========end perent one=============*/
+.perent2 .child2 .header{
+     width:100%;
+     text-align: center;
+        margin: 10px;
+        padding: 10px;
+        }
+ .perent2 .child2 p{
+    text-align: center;    
+        }     
+.perent2 .child2 h1:hover{
+         color:blue;
+        }
+ .perent2 .child2  .header{
+        text-shadow: 50px  5px  rgb(216, 212, 205);
+        color: url(0,0,0,0.5);  
+        text-align: center; 
+        }
+/*==========================================================*/
+
+.child2{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+   flex-direction: row;  
+}
+
+.child2 .icon {
+    width: 15%;
+    height: 100px;
+    margin: 30px;
+    padding:10px;
+    font-size: 10px;
+    background-color: rgb(217, 221, 219);
+    text-align: center;
+}
+
+.perent2 .child2 .icon h1:hover{
+          color:blue;
+ }
+.perent2 .child2 .icon:hover{
+          border: 2px solid blue;
+ }
+.perent2 .child2 .icon  i{
+          color:blue;
+}    
+
+/*====================about===================*/
+#about .about-info{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+ 
+}
+
+#about .about-info .about-header{
+    width: 30%;
+    background-color: rgb(228, 236, 236);
+     padding: 25px;
+     border-bottom: 2px solid blue;
+     border-top: 2px solid blue;
+     height: 600px;
+}
+#about .about-info .about-header  i{
+    float:left;
+    width: 30px;
+    font-size: 30px;
+ 
+  }
+  #about .about-info .about-header h1:hover{
+    color:blue;
+}
+#about .about-info .about-content .form{
+    width: 90%;
+    background-color: rgb(228, 236, 236);
+     padding: 25px;
+     border-bottom: 2px solid blue;
+     border-top: 2px solid blue;
+     height: 600px
+}
+#about .about-info .about-content .form input{
+    width: 200px;
+    height: 40px;
+  
+    margin-bottom: 30px; 
+}
+#about .about-info .about-content .form input:hover{
+    border: 1px solid blue;
+  } 
+  #about .about-info .about-content .form  .textinput{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+  #about .about-info .about-content .form textarea{
+    width: 400px;
+    margin-bottom: 30px;
+  
+  }
+  #about .about-info .about-content .form  textarea:hover{
+    border: 1px solid blue;
+  }
+  #about .about-info .about-content .form  .bu{
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+    color:white;
+    background-color: blue;
+    border: 1px solid white;
+   margin-right: 75%;
+  }
+  #about .about-info .about-content .form  .bu:hover{
+    cursor: pointer;
+  }
+  
+  .boday{
+    display:block;
+  }
+ 
+  .about-header i{
+    color: blue;
+  }
+  
+  /*===========last==============*/
+  .icons i{
+    margin: 5px;
+    padding: 2px;
+    background-color: white;
+  }
+  .icons h1:hover{
+    color:blue;
+  }
+  .icons i:hover{
+    border: 1px solid blue;
+  }
+  
+.last {
+  width: 98%;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(230, 217, 217);
+  overflow: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.last i{
+  margin: 5px;
+  padding: 2px;
+  background-color: white;
+ margin-bottom: 100px;
+}
+.last h1:hover{
+  color:blue;
+}
+.last i:hover{
+  border: 1px solid blue;
+}
+.header1{
+  float:left;
+  color:rgb(117, 86, 117);
+
+}
+.header2{
+  float:right;
+  color:rgb(117, 86, 117);
+ 
+}
+ .finaly{
+  color:green;
+ } 
+  /*===========================================================*/
+  /*========media================*/
+  @media(max-width:950px){
+  
+    .perent{
+      width:100%
+    }
+    .perent .child {
+      width:100%;
+  text-align: center;
+     
+    }
+    .perent2 .child2{
+      width:100%;
+    }
+    .perent2 .child2 .icon{
+      width:40%;
+    }
+  }
+  
+@media(max-width:900px){
+  .home .nav ul {
+    display: none;
+  }
+  .perent{
+    width:100%
+  }
+  .perent .child {
+    width:100%;
+text-align: center;
+   
+  }
+}
+/*////////////////////////700////////////////*/
+@media(max-width:700px){
+  .perent{
+    width:100%
+  }
+  .perent .child {
+    width:100%;
+text-align: center;
+   
+  }
+  .last .header1{
+    font-size: small;
+  }
+  .last .header2{
+    font-size: small;
+  }
+  .perent2 .child2{
+    width:100%;
+  }
+  .perent2 .child2 .icon{
+    width:50%;
+  }
+  .about .about-info{
+    width:100%;
+  }
+  .about .about-info .about-header{
+    width:100%;
+  }
+}
+/*/////////////////////500////////////*/
+@media(max-width:500px){  
+ .home .nav ul li{
+  width:100%;
+ }
+.last .header1{
+  font-size: small;
+}
+.last .header2{
+  font-size: small;
+}
+.perent2 .child2{
+  width:100%;
+}
+.perent2 .child2 .icon{
+  width:50%;
+}
+.about .about-info{
+  width:100%;
+}
+.about .about-info .about-header{
+  width:100%;
+}
+
+}
+/*///////////350///////////*/
+@media(max-width:350px){
+  .home .nav ul li{
+    width:100%;
+   }
+  .last .header1{
+    font-size: small;
+  }
+  .last .header2{
+    font-size: small;
+  }
+  .perent2 .child2{
+    width:100%;
+  }
+  .perent2 .child2 .icon{
+    width:50%;
+  }
+  .about .about-info{
+    width:100%;
+  }
+  .about .about-info .about-header{
+    width:100%;
+  }
+  .about .about-info .about-content{
+    width:100%;
+    margin: 10px;
+  }
+}
+
